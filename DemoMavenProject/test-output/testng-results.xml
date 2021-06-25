@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[[ PO31 ] vTiger_9960 - Purchase Order Information   Updated today (25 Jun 2021) By Administrator ]]>
+    </line>
+    <line>
+      <![CDATA[Vender Created Successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="100616" started-at="2021-06-25T09:55:24 IST" finished-at="2021-06-25T09:57:05 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="100616" started-at="2021-06-25T09:55:24 IST" finished-at="2021-06-25T09:57:05 IST">
+      <class name="PurchaseOrder.TC_003Test">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:PurchaseOrder.TC_003Test@1b26f7b2]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2021-06-25T09:55:24 IST" finished-at="2021-06-25T09:55:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:PurchaseOrder.TC_003Test@1b26f7b2]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-06-25T09:55:24 IST" finished-at="2021-06-25T09:55:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:PurchaseOrder.TC_003Test@1b26f7b2]" name="beforeClass" is-config="true" duration-ms="9388" started-at="2021-06-25T09:55:24 IST" finished-at="2021-06-25T09:55:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:PurchaseOrder.TC_003Test@1b26f7b2]" name="beforeMethod" is-config="true" duration-ms="22796" started-at="2021-06-25T09:55:34 IST" finished-at="2021-06-25T09:55:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CreateNewVender()[pri:0, instance:PurchaseOrder.TC_003Test@1b26f7b2]" name="CreateNewVender" duration-ms="63819" started-at="2021-06-25T09:55:57 IST" finished-at="2021-06-25T09:57:00 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[[ PO31 ] vTiger_9960 - Purchase Order Information   Updated today (25 Jun 2021) By Administrator ]]>
+            </line>
+            <line>
+              <![CDATA[Vender Created Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateNewVender -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:PurchaseOrder.TC_003Test@1b26f7b2]" name="afterMethod" is-config="true" duration-ms="3275" started-at="2021-06-25T09:57:00 IST" finished-at="2021-06-25T09:57:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:PurchaseOrder.TC_003Test@1b26f7b2]" name="AfterClass" is-config="true" duration-ms="1218" started-at="2021-06-25T09:57:04 IST" finished-at="2021-06-25T09:57:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:PurchaseOrder.TC_003Test@1b26f7b2]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-06-25T09:57:05 IST" finished-at="2021-06-25T09:57:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:PurchaseOrder.TC_003Test@1b26f7b2]" name="afterSuite" is-config="true" duration-ms="0" started-at="2021-06-25T09:57:05 IST" finished-at="2021-06-25T09:57:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- PurchaseOrder.TC_003Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
