@@ -33,7 +33,7 @@ public class TC_001Test extends BaseClass{
 		//==================================Step 3: Create Purchase Order with mandatory fields=====================
 		CreatePurchaseOrder createPurchaseOrder =new CreatePurchaseOrder(driver);
 		ExcelUtil ex=new ExcelUtil();
-		String subject=ex.getStringCellValue(ExcelFile_path, "Sheet1", 0,0);
+		String subject=ex.getStringCellValue(ExcelFile_path, "Sheet1",0,0);
 		createPurchaseOrder.getSubject().sendKeys(subject);
 		Assert.assertEquals(createPurchaseOrder.getSubject().getAttribute("value"),subject,"Subject is Not Entered");
 

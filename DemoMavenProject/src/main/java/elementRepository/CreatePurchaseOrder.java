@@ -52,6 +52,20 @@ public class CreatePurchaseOrder {
 	
 	@FindBy(xpath="//span[contains(text(),'Purchase Order Information')]/..")
 	private WebElement confirmationElement;
+	
+	@FindBy(xpath="//a[text()='Products']")
+	private WebElement productLink;
+	
+	@FindBy(xpath="//input[@name='productName1']")
+	private WebElement productNameTextField;
+
+	public WebElement getProductNameTextField() {
+		return productNameTextField;
+	}
+
+	public WebElement getProductLink() {
+		return productLink;
+	}
 
 	public WebElement getConfirmationElement() {
 		return confirmationElement;
@@ -100,5 +114,11 @@ public class CreatePurchaseOrder {
 	public WebElement getVenderName2() {
 		return VenderName2;
 	}	
+	@FindBy(xpath="//a[text()='dress']")
+	private WebElement newlyAddedProduct;
+
+	public WebElement getNewlyAddedProduct() {
+		return newlyAddedProduct;
+	}
 	
 }
