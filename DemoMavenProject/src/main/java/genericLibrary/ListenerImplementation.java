@@ -25,7 +25,7 @@ public class ListenerImplementation implements ITestListener {
 	}		
 
 	public void onTestFailure(ITestResult result) {					//1-pass 2-fail 3-skip
-		System.out.println(result);
+		//System.out.println(result);
 //		TakesScereenshotWebdriver ts=new TakesScereenshotWebdriver();
 //		ts.takesScreenshot(driver,result);
 	}		

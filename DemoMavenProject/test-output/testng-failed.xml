@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PurchaseOrder.TC_001Test">
+      <class name="PurchaseOrder.TC_005Test">
         <methods>
-          <include name="demo"/>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
+          <include name="CreatePurchaseOrderWithItemAndProduct"/>
           <include name="afterSuite"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
@@ -15,7 +15,7 @@
           <include name="AfterClass"/>
           <include name="beforeSuite"/>
         </methods>
-      </class> <!-- PurchaseOrder.TC_001Test -->
+      </class> <!-- PurchaseOrder.TC_005Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
